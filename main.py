@@ -36,6 +36,21 @@ with st.sidebar:
         else:
             st.error("Please enter a habit name")
 
+    # About section
+    st.markdown("---")
+    st.header("About")
+    st.markdown("""
+        👨‍💻 **Abdul Hakim Nazari**  
+        Computer Engineering Student  
+        Pamukkale University
+
+        📧 **Feedback & Contact**  
+        [hakim.nazari.tech@gmail.com](mailto:hakim.nazari.tech@gmail.com)
+
+        This habit tracker helps you build better routines through 
+        visualization and progress tracking.
+    """)
+
 # Main content
 habits = st.session_state.habit_manager.get_habits()
 
