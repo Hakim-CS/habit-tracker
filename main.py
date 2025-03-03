@@ -78,8 +78,23 @@ with st.sidebar:
     st.markdown("---")
     st.header("About")
     st.markdown("""
-        This habit tracker helps you build better routines through 
-        visualization and progress tracking.
+        ### About the Developer
+        👨‍💻 **Abdul Hakim Nazari**  
+        Computer Engineering Student  
+        Pamukkale University  
+        📧 [hakim.nazari.tech@gmail.com](mailto:hakim.nazari.tech@gmail.com)
+
+        ### About this Project
+        This is a web-based habit tracker application built with Streamlit, 
+        designed to help you build better routines through visualization 
+        and progress tracking. Access it from any device with a web browser!
+
+        #### Features:
+        - 📊 Interactive visualizations
+        - 🎯 Goal setting and tracking
+        - 📱 Mobile-responsive design
+        - 💾 Data export/import capability
+        - ⭐ Priority-based habit management
     """)
 
 
