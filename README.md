@@ -1,5 +1,8 @@
 # Habit Tracker Application 📊
 
+## `live demo`
+https://bit.ly/4h7f9tO
+
 A dynamic web-based habit tracking application built with Streamlit that helps users monitor, analyze, and improve their personal habits through interactive visualizations and intuitive design.
 
 ## Developer
