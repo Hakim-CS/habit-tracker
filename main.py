@@ -35,7 +35,7 @@ with st.sidebar:
             st.success(f"Added new habit: {new_habit_name}")
         else:
             st.error("Please enter a habit name")
-
+    
     # About section
     st.markdown("---")
     st.header("About")
@@ -43,10 +43,10 @@ with st.sidebar:
         👨‍💻 **Abdul Hakim Nazari**  
         Computer Engineering Student  
         Pamukkale University
-
+    
         📧 **Feedback & Contact**  
         [hakim.nazari.tech@gmail.com](mailto:hakim.nazari.tech@gmail.com)
-
+    
         This habit tracker helps you build better routines through 
         visualization and progress tracking.
     """)
@@ -83,7 +83,7 @@ else:
         # Display streak and stats
         streak = st.session_state.habit_manager.get_streak(selected_habit)
         st.metric("Current Streak", f"{streak} days")
-
+    
     # Get tracking data
     tracking_data = st.session_state.habit_manager.get_tracking_data(selected_habit)
     
@@ -98,7 +98,7 @@ else:
         st.metric("Days Completed", stats['completed_days'])
     with col3:
         st.metric("Completion Rate", f"{stats['completion_rate']}%")
-
+    
     # Visualizations
     st.subheader("Visualizations")
     
@@ -119,7 +119,8 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center'>
-        <p>Built with ❤️ using Streamlit</p>
+        <p>Made by Abdul Hakim Nazari | Computer Engineering Student at Pamukkale University</p>
+        <p>Contact: <a href="mailto:hakim.nazari.tech@gmail.com">hakim.nazari.tech@gmail.com</a></p>
     </div>
     """,
     unsafe_allow_html=True
