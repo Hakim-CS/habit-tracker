@@ -40,13 +40,6 @@ with st.sidebar:
     st.markdown("---")
     st.header("About")
     st.markdown("""
-        👨‍💻 **Abdul Hakim Nazari**  
-        Computer Engineering Student  
-        Pamukkale University
-    
-        📧 **Feedback & Contact**  
-        [hakim.nazari.tech@gmail.com](mailto:hakim.nazari.tech@gmail.com)
-    
         This habit tracker helps you build better routines through 
         visualization and progress tracking.
     """)
@@ -119,8 +112,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center'>
-        <p>Made by Abdul Hakim Nazari | Computer Engineering Student at Pamukkale University</p>
-        <p>Contact: <a href="mailto:hakim.nazari.tech@gmail.com">hakim.nazari.tech@gmail.com</a></p>
+        <p>Built with Streamlit | Track your habits, build better routines</p>
     </div>
     """,
     unsafe_allow_html=True
