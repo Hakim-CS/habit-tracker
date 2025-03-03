@@ -1,4 +1,4 @@
-habit_id,name,description,created_date
-1,Gym,Five day a week,2025-03-03
-2,Learning English,1 Hour each day,2025-03-03
-3,University lessons,3 hours each day,2025-03-03
+habit_id,name,description,created_date,priority,goal_type,goal_value,reminder_time
+1,Gym,Five day a week,2025-03-03,medium,completion,100,
+2,Learning English,1 Hour each day,2025-03-03,medium,completion,100,
+3,University lessons,3 hours each day,2025-03-03,medium,completion,100,
