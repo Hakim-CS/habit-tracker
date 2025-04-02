@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 # import json 
-from data_manager import HabitManager
+from data_manager import HabitManager 
 from visualizations import create_streak_chart, create_completion_heatmap, create_progress_chart
 from utils import get_date_range, format_date, calculate_completion_stats
 
