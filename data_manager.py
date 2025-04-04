@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timedelta
 import json
 
-class HabitManager:
+class HabitManager: 
     def __init__(self):
         self.habits_file = "habits.csv"
         self.tracking_file = "tracking.csv"
