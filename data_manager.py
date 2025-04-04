@@ -5,7 +5,7 @@ import json
 
 class HabitManager: 
     def __init__(self):
-        self.habits_file = "habits.csv"
+        self.habits_file = "habits.csv" 
         self.tracking_file = "tracking.csv"
         self.initialize_files()
         self.migrate_existing_data()
