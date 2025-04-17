@@ -10,7 +10,7 @@ from utils import get_date_range, format_date, calculate_completion_stats
 if 'habit_manager' not in st.session_state:
     st.session_state.habit_manager = HabitManager()
 
-# Page configuration
+# page configuration ...
 st.set_page_config(
     page_title="Habit Tracker",
     page_icon="📊",
